@@ -16,6 +16,11 @@ body {
   border-bottom: 1px solid #ccc;
 }
 
+.header a {
+  display: block;
+  padding: 10px 20px;
+}
+
 .header-nav {
   width: 900px;
   margin: 0 auto;
@@ -26,7 +31,7 @@ body {
   display: inline-block;
 
   font-weight: 700;
-  padding: 10px 20px;
+
   border-left: 1px solid #ccc;
   border-right: 1px solid #ccc;
 }
@@ -36,18 +41,18 @@ body {
   display: inline-block;
 }
 
-.header-list a {
+.header-list > li {
   float: left;
   display: inline-block;
 
-  padding: 10px 20px;
+
   border-left: 1px solid #ccc;
 }
 
-.header-list a:last-of-type {
+.header-list > li:last-of-type {
   border-right: 1px solid #ccc;
 }
 
-.header-logo:hover, .header-list a:hover {
+.header-logo:hover, .header-list > li:hover {
   background-color: #000;
 }
