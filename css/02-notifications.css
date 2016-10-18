@@ -42,3 +42,8 @@
 .notifications-list > li:hover {
   background-color: #eee;
 }
+
+.header {
+  position: relative;
+  z-index: 1;
+}
